@@ -1,5 +1,4 @@
 import React from "react";
-
 const NewsItem = ({title,description,imageUrl,newsUrl,author,date,source,}) => {
   const fallbackImg ="https://image.cnbcfm.com/api/v1/image/108173667-1752803324163-gettyimages-2195350309-4072_14_mrb_24-sydneytasmania-1799.jpeg?v=1764720520&w=1920&h=1080";
   return (

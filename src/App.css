@@ -92,3 +92,11 @@ body {
   height: 180px;
   object-fit: cover;
 }
+::-webkit-scrollbar {
+  display: none;
+}
+
+/* For Firefox */
+html {
+  scrollbar-width: none;
+}
